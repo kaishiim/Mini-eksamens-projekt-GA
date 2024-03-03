@@ -1,0 +1,43 @@
+Python whirlwhind tour:
+Eight artihemtic operations
+a @ b # matrix multiplicaiton of a and b
+
+
+
+Bitwise logical operations
+used when working with binary
+
+a = 24
+a = a + 2 # kan skrives som: a += 2
+
+Samme metode kan bruges med alle pythons operatorer så fx
+a -= 2 eller a *= 2
+
+Pythons comparison operations
+returner booleanske værdier True og False.
+eksempel a == b # test for a = b gør sig gældende
+a != b # a er ikke lig med b
+
+kan teste for om tal er 'odd' (tal divideret m. 2)
+
+boolean operators:
+XOR:
+# (x > 1) xor (x < 10)
+(x > 1) != (x < 10)
+
+
+Boolean vs bitwise operator
+Boolean operators når man ønsker boolean værdi
+Bitwise når man ønsker bitwise værdier
+
+
+Python identiy and membership operators
+a is b
+a is not b
+a in b
+a not in b
+^^^
+returner boolean værdier
+
+
+

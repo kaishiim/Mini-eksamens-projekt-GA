@@ -1,0 +1,18 @@
+Ideer til mini-eksamensprojekt:
+
+Time to read book, based on book length data
+(Simpel matematik måske...?)
+
+TSP-GA algortihm visualisation - number of chromosomes?
+(data visualisering)
+
+Predict survivability of aircraft crash, based on seating postion, age, height, weight etc. Logistisk regression?
+(sandsynligheds forudsigelse)
+
+Forudsig karakter i et givet fag, baseret på om det humanistisk, naturvidenskabelig eller praktisk. - Naiv bayes formel? (klassificiering problem)
+
+Visualisering af antal aflyste moduler at et år og hvor meget skal indhentes (tænk fkn biologi og puk raaa)
+
+
+Streamlit timeline af kodningsprojekter (datvisualisering)
+
