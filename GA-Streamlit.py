@@ -6,8 +6,8 @@ then applying a crossover and a mutation to the best solutions before starting t
 
 import csv
 import numpy as np
-from matplotlib import pyplot as plt
 from math import sqrt
+from matplotlib import pyplot as plt
 from random import randint, shuffle
 import streamlit as st
 import requests 
