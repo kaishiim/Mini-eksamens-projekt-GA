@@ -234,7 +234,7 @@ def TSP_GA(num_pop, num_gen):
 st.title("Kør en gentisk algoritme for TSP på Europas hovedestader!")   
 st.write("Du kan justere på 2 parametere på algoritmen ved at bruge nedenstående sliders:") 
 num_pop = st.slider("Antal kromosomer/populations størelse (brug pile-taster til fin-justering)", 100, 50000, 10000) #10000
-num_gen = st.slider("Antal generationer/iterationer", 1, 10000, 50) #50
+num_gen = st.slider("Antal generationer/iterationer", 1, 200, 50) #50
 st.write("En større population vil give algoritmen flere muligigheder at vælge imellem og dermed finde frem til en kortere totalafstand") 
 st.write('')
 st.write('')
