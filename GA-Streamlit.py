@@ -199,13 +199,12 @@ def TSP_GA(num_pop, num_gen):
         ax2.plot(best_length_list)
             
         # figure 3
-        plt.axes(ax3)
-        plt.xlim(x3_min, x3_max)
+        ax3.set_xlim(x3_min, x3_max)
         xx = [i for i in range(hist_len)]
-        plt.plot(xx, cum_sum)
+        ax3.plot(xx, cum_sum)
         x_ticks = [t for t in range(x3_min, x3_max+1,50)]
         x_labels = [str(t) for t in x_ticks]
-        plt.xticks(x_ticks, labels=x_labels,)
+        ax3.set_xticks(x_ticks, labels=x_labels,)
         #plt.pause(0.01)
 
     st.write('')
